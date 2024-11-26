@@ -1,12 +1,13 @@
 {
   "name": "clipboard-log",
-  "displayName": "clipboard-log",
+  "displayName": "Clipboard log",
   "description": "",
-  "version": "0.0.1",
+  "icon": "assets/logo.png",
+  "version": "1.0.0",
   "publisher": "khoivudev",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.70.0"
   },
   "repository": {
   "type": "git",
@@ -59,7 +60,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.9",
     "@types/node": "20.x",
-    "@types/vscode": "^1.95.0",
+    "@types/vscode": "^1.70.0",
     "@typescript-eslint/eslint-plugin": "^8.10.0",
     "@typescript-eslint/parser": "^8.7.0",
     "@vscode/test-cli": "^0.0.10",
