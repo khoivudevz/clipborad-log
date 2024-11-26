@@ -1,15 +1,16 @@
 {
-  "name": "clipbroad-log",
-  "displayName": "clipbroad-log",
+  "name": "clipboard-log",
+  "displayName": "clipboard-log",
   "description": "",
   "version": "0.0.1",
+  "publisher": "khoivudev",
   "license": "MIT",
   "engines": {
     "vscode": "^1.95.0"
   },
   "repository": {
   "type": "git",
-  "url": "https://github.com/khoivudevz/clipbroad-log"
+  "url": "https://github.com/khoivudevz/clipborad-log"
 },
   "categories": [
     "Other"
@@ -19,25 +20,25 @@
   "contributes": {
     "commands": [
       {
-        "command": "clipbroad-log.paste",
-        "title": "Clipbroad Log"
+        "command": "clipboard-log.paste",
+        "title": "clipboard Log"
       }
     ],
     "keybindings": [
       {
-        "command": "clipbroad-log.paste",
+        "command": "clipboard-log.paste",
         "key": "ctrl+shift+v",
         "when": "editorTextFocus",
         "os": "linux"
       },
       {
-        "command": "clipbroad-log.paste",
+        "command": "clipboard-log.paste",
         "key": "ctrl+shift+v",
         "when": "editorTextFocus",
         "os": "windows"
       },
       {
-        "command": "clipbroad-log.paste",
+        "command": "clipboard-log.paste",
         "key": "cmd+shift+v",
         "when": "editorTextFocus",
         "os": "mac"
