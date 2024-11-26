@@ -1,71 +1,34 @@
-# clipbroad-log README
+# Clipboard-Log Extension
 
-This is the README for your extension "clipbroad-log". After writing up a brief description, we recommend including the following sections.
+Welcome to the **Clipboard-Log** extension! This extension enhances your productivity by allowing you to replace selected text in the editor with clipboard content using a custom shortcut.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Quick Paste Functionality:** Replace selected text with clipboard content using a custom shortcut (`Ctrl+Shift+V` on Windows/Linux, `Cmd+Shift+V` on macOS).
+- **Fallback Behavior:** Inserts clipboard content at the cursor position when no text is selected.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension does not have any special requirements or dependencies beyond Visual Studio Code.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not currently contribute any settings. Future versions may include customizable keybindings or additional features.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- If the clipboard is empty, no action is taken, and a warning is displayed.
+- This extension is designed for use only in the editor. Ensure the editor has focus when using the shortcut.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Initial release of **Clipboard-Log**:
+- Replaces selected text with clipboard content.
+- Inserts clipboard content at the cursor when no text is selected.
 
-### 1.0.1
 
-Fixed issue #.
+**Enjoy Clipboard-Log!**
 
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
